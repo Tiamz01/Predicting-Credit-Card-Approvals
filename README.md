@@ -29,4 +29,3 @@ The final Logistic Regression model achieves 100% accuracy in predicting credit 
 
 The notebook provides a simple machine learning workflow for a classification problem. The final model demonstrates excellent predictive power. Further improvements can focus on trying different algorithms like Random Forest, obtaining more data, and adding additional predictive features.
 
-Let me know if you would like me to modify or add anything to this Markdown README file. I'm happy to expand any sections or provide more details as needed.
