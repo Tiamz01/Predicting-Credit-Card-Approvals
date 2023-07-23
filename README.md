@@ -5,15 +5,15 @@ This notebook builds a machine learning model to predict if a credit card applic
 
 ## Data
 
-The credit card approval dataset is obtained from the UCI Machine Learning Repository. It contains information on 690 applicants including demographic features like Gender, Age, Debt, Income and attributes like Credit Score. 
+The credit card approval dataset is obtained from the UCI Machine Learning Repository. It contains information on 690 applicants including demographic features like Gender, Age, Debt, Income, and attributes like Credit Score. 
 
 ## Methods
 
 The main steps involved in building the prediction model are:
 
-- Data inspection: Checking for missing values, data types and statistical properties. Missing values are imputed accordingly.
+- Data inspection: Checking for missing values, data types, and statistical properties. Missing values are imputed accordingly.
 
-- Preprocessing: Converting categorical features to dummy variables, splitting into train and test sets, feature scaling using MinMaxScaler.
+- Preprocessing: Converting categorical features to dummy variables, splitting them into train and test sets, and feature scaling using pandas get_dummies method.
 
 - Model Building: Fitting a Logistic Regression model on the training data.
 
