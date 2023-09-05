@@ -13,13 +13,13 @@ The main steps involved in building the prediction model are:
 
 - Data inspection: Checking for missing values, data types, and statistical properties. Missing values are imputed accordingly.
 
-- Preprocessing: Converting categorical features to dummy variables, splitting them into train and test sets, and feature scaling using pandas get_dummies method.
+- Preprocessing: Converting categorical features to dummy variables, splitting them into train and test sets, and feature scaling using the pandas get_dummies method.
 
 - Model Building: Fitting a Logistic Regression model on the training data.
 
 - Evaluation: Evaluating classifier performance using accuracy score and confusion matrix. 
 
-- Tuning: Gridsearching over Logistic Regression hyperparameters like tol and max_iter to find best model.
+- Tuning: Gridsearching over Logistic Regression hyperparameters like tol and max_iter to find the best model.
 
 ## Results
 
@@ -27,5 +27,5 @@ The final Logistic Regression model achieves 100% accuracy in predicting credit 
 
 ## Conclusion
 
-The notebook provides a simple machine learning workflow for a classification problem. The final model demonstrates excellent predictive power. Further improvements can focus on trying different algorithms like Random Forest, obtaining more data, and adding additional predictive features.
+The analysis provides a simple machine-learning workflow for a classification problem. The final model demonstrates excellent predictive power
 
